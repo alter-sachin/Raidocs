@@ -1,0 +1,35 @@
+HOW TO PUSH TO THERAIWAY.COM ?
+
+Prerequisites
+
+Sublime Text , ssh , git . thats it....
+
+1. Clone the theraiway git by command :- git clone https://github.com/rmnguleria/theraiway-site.git . If you already have it , do a :- git pull , to get the latest commits.
+
+2. Make awesome changes and make it super kewl.
+
+3. Save your changes and do :- git add -A followed by git commit -m "Commit Message"
+
+4. After this do git push -u origin master to push ur changes to github. 
+
+5. Now your changes are on git but not on the server . So let us do that.
+
+The following instructions only work if you have Pectube.pem (private key) . If you don't then contact me.....
+
+6. go into Pectube.pem folder and do :- ssh -v -i Pectube.pem ubuntu@52.26.2.247
+
+7. Upon succesful connection , you will be logged into our super awesome AWS instance.
+
+8. Now do :- ls and you will find theraiway-site folder . do :- cd theraiway-site
+
+9. Do a git pull here to fetch the latest commits pushed by you.
+
+10. Now finally just restart the webapp by :- pm2 restart server. 
+
+11. And its done . 
+
+If any problems , please bother me ...
+
+Thanks,
+
+Raman (8427092485)
