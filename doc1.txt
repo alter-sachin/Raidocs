@@ -4,7 +4,8 @@ Prerequisites
 
 Sublime Text , ssh , git . thats it....
 
-1. Clone the theraiway git by command :- git clone https://github.com/rmnguleria/theraiway-site.git . If you already have it , do a :- git pull , to get the latest commits.
+1. Clone the theraiway git by command :- git clone https://github.com/rmnguleria/theraiway-site.git . 
+If you already have it , do a :- git pull , to get the latest commits.
 
 2. Make awesome changes and make it super kewl.
 
